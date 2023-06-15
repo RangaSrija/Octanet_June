@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(239, 222, 222, 0.6),rgba(232, 243, 188, 0.6)), url("https://img.freepik.com/free-photo/flat-lay-arrangement-with-salad-box-sauce_23-2148247883.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin-right: 20%;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: brown;
+}
+nav ul{
+    float: left;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: disc;
+    padding: 0px 5px;
+}
+nav u li a{
+    color: chocolate;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: cadetblue;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color:chocolate;
+    margin: auto;
+    border-radius: 5px;
+    border-color: black;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color:darkred;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-style:oblique;
+}
+.article .btn{
+    color: firebrick;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: darksalmon;
+}
+.article .btn:hover{
+    background-color: black;
+    transition: 0.5s ease;
+}
+</style>
+<body>
+    <section>
+        <div class="container">
+            <nav>
+                <h1>Foodie</h1><br><br>
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav><br><br><br>
+            <div class="article">
+                <h1><i>Food at the speed of a click.</i></h1><br>
+                <p><font="20px"><i>AnyTime Anywhere available of tasty food .Just place the order and get the tasty and fresh food</i></font></p>
+                <a href="" class="btn">Download the app now!!</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
